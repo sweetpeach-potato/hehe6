@@ -57,3 +57,6 @@
 .short-viewport .session-shell .topbar{margin-bottom:8px}.short-viewport .session-shell .progress-line{margin-top:3px}.short-viewport .session-shell .progress-track{margin:5px 0 9px}
 .short-viewport .session-shell:has(.long-options) .question-card{min-height:80px;padding:8px 12px}.short-viewport .session-shell .session-caption{margin:8px 0 6px}
 .session-shell:has(.long-options) .session-bottom{position:static}
+
+.session-actions{display:grid;grid-template-columns:1fr;gap:10px}.session-actions.memory-actions{grid-template-columns:1fr 1fr}.session-actions button{min-height:48px;font-size:1.125rem}.flip:disabled{opacity:1;color:inherit;cursor:default}.session-bottom .reference-note{margin:0 0 8px}
+.session-shell:has(.options){height:min(720px,var(--visible-height));min-height:0;padding-top:10px;padding-bottom:max(12px,env(safe-area-inset-bottom))}.session-shell:has(.options)>*{flex-shrink:0}.session-shell .options{flex:1 1 auto;min-height:0;overflow:auto;align-content:start;touch-action:pan-y}.session-shell:has(.options) .session-bottom{margin-top:0;padding-top:8px;padding-bottom:0}.session-shell:has(.options) .question-card{max-height:140px;overflow:auto}
